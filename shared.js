@@ -100,6 +100,32 @@
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
+
+    /* ---- Menú hamburguesa (móvil) ---- */
+    const toggle = nav.querySelector(".nav__toggle");
+    const links = nav.querySelector(".nav__links");
+    if (toggle && links) {
+      const setOpen = (open) => {
+        nav.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        toggle.setAttribute("aria-label", open ? "Cerrar menú" : "Abrir menú");
+      };
+      toggle.addEventListener("click", () => {
+        setOpen(!nav.classList.contains("is-open"));
+      });
+      // Cerrar al tocar un enlace
+      links.querySelectorAll("a").forEach((a) => {
+        a.addEventListener("click", () => setOpen(false));
+      });
+      // Cerrar con Escape
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && nav.classList.contains("is-open")) setOpen(false);
+      });
+      // Reset si se agranda la ventana
+      window.addEventListener("resize", () => {
+        if (window.innerWidth > 860) setOpen(false);
+      });
+    }
   }
 
   /* ---- FAQ acordeón ---- */
