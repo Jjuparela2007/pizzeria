@@ -92,8 +92,8 @@ a{color:inherit;text-decoration:none}
 
 @media (max-width:860px){
   .nav{position:sticky;flex-wrap:wrap;row-gap:0}
-  .nav__toggle{display:flex;order:2}
-  .nav__cta{order:1;margin-left:auto;margin-right:.6rem}
+  .nav__toggle{display:flex;order:2;margin-left:auto}
+  .nav__cta{display:none}
   .nav__links{
     order:3;
     flex-basis:100%;width:100%;
@@ -558,3 +558,15 @@ a{color:inherit;text-decoration:none}
   [data-reveal]{opacity:1!important;transform:none!important}
 }
 a:focus-visible,button:focus-visible{outline:3px solid var(--brasa);outline-offset:3px}
+/* ===== Reseñas: avatar + botón Google ===== */
+.resena figcaption{display:flex;align-items:center;gap:12px}
+.resena__avatar{width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0;
+  border:2px solid var(--ink)}
+.resena__author{display:flex;flex-direction:column;line-height:1.3}
+.resenas__cta{text-align:center;margin-top:2.4rem}
+.btn--google{display:inline-flex;align-items:center;gap:10px;
+  background:#fff;color:#3c4043;border:2px solid var(--ink);
+  font-family:var(--cond);font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+  padding:.85rem 1.6rem;border-radius:100px}
+.btn--google:hover{background:var(--ink);color:#fff}
+.btn--google:hover svg path{fill:#fff}
