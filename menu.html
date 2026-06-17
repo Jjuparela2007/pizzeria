@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú · Pizzería La Toscana</title>
+<meta name="description" content="Menú completo de Pizzería La Toscana: pizzas al horno de leña, hamburguesas, perros calientes, entradas, postres y bebidas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&family=Archivo+Narrow:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="top">
+  <a href="index.html" class="brand">
+    <img class="brand__logo" src="img/logo.png" alt="Logo Pizzería La Toscana">
+    LA TOSCANA
+  </a>
+  <nav class="nav__links" aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a href="menu.html" aria-current="page">Menú</a>
+    <a href="historia.html">Historia</a>
+    <a href="pedir.html">Cómo pedir</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <a href="https://wa.me/573138999034?text=Hola%20La%20Toscana,%20quiero%20pedir%20un%20domicilio" class="nav__cta" target="_blank" rel="noopener">Pedir ahora</a>
+</header>
+
+<!-- ===== HERO DEL MENÚ ===== -->
+<section class="menupage__hero">
+  <div class="menupage__hero-inner">
+    <a href="index.html" class="menupage__back">← Volver al inicio</a>
+    <h1 class="menupage__title">El menú</h1>
+    <p class="menupage__sub">Todo lo que sale de nuestra cocina y horno de leña. Precios en pesos colombianos.</p>
+  </div>
+</section>
+
+<!-- ===== NAV DE CATEGORÍAS ===== -->
+<nav class="menunav" aria-label="Categorías del menú">
+  <div class="menunav__inner">
+    <a href="#pizzas">Pizzas</a>
+    <a href="#hamburguesas">Hamburguesas</a>
+    <a href="#perros">Perros calientes</a>
+    <a href="#entradas">Entradas</a>
+    <a href="#postres">Postres</a>
+    <a href="#bebidas">Bebidas</a>
+  </div>
+</nav>
+
+<main class="menupage">
+
+  <!-- ===== PIZZAS ===== -->
+  <section class="cat" id="pizzas">
+    <div class="cat__head" data-reveal>
+      <h2 class="cat__title">Pizzas</h2>
+      <p class="cat__note">Masa madre de 48h<br>Horno de leña</p>
+    </div>
+    <div class="items">
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=600&h=450&fit=crop&q=80" alt="Pizza Margherita" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Margherita</span><span class="item__tag">La de la casa</span></div><p class="item__desc">Tomate San Marzano, mozzarella fresca, albahaca y aceite de oliva.</p></div><span class="item__dots"></span><span class="item__price">$32.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=600&h=450&fit=crop&q=80" alt="Pizza Diavola" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Diavola</span><span class="item__tag item__tag--pic">Picante</span></div><p class="item__desc">Salami picante, jalapeños y un hilo de miel.</p></div><span class="item__dots"></span><span class="item__price">$36.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&h=450&fit=crop&q=80" alt="Pizza Cuatro Quesos" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Cuatro Quesos</span></div><p class="item__desc">Mozzarella, gorgonzola, parmesano y queso de cabra.</p></div><span class="item__dots"></span><span class="item__price">$38.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=600&h=450&fit=crop&q=80" alt="Pizza Huerta" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Huerta</span><span class="item__tag item__tag--veg">Veggie</span></div><p class="item__desc">Calabacín, pimentón asado, cebolla morada, champiñones y rúcula.</p></div><span class="item__dots"></span><span class="item__price">$34.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=600&h=450&fit=crop&q=80" alt="Pizza Pepperoni Doble" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Pepperoni Doble</span></div><p class="item__desc">El doble de pepperoni sobre mozzarella y salsa de tomate.</p></div><span class="item__dots"></span><span class="item__price">$37.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=450&fit=crop&q=80" alt="Pizza Prosciutto" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Prosciutto</span><span class="item__tag">Premium</span></div><p class="item__desc">Jamón serrano sobre rúcula fresca y lascas de parmesano.</p></div><span class="item__dots"></span><span class="item__price">$42.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&h=450&fit=crop&q=80" alt="Pizza Capricciosa" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Capricciosa</span></div><p class="item__desc">Jamón, champiñones, alcachofas y aceitunas negras.</p></div><span class="item__dots"></span><span class="item__price">$39.900</span></div>
+      <div class="item"><img class="item__img" src="https://assets.unileversolutions.com/recipes-v2/244028.jpg" alt="Pizza Hawaiana" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Hawaiana</span></div><p class="item__desc">Jamón ahumado, piña caramelizada y mozzarella.</p></div><span class="item__dots"></span><span class="item__price">$35.900</span></div>
+    </div>
+  </section>
+
+  <!-- ===== HAMBURGUESAS ===== -->
+  <section class="cat" id="hamburguesas">
+    <div class="cat__head" data-reveal>
+      <h2 class="cat__title">Hamburguesas</h2>
+      <p class="cat__note">Carne 100% res<br>Pan artesanal</p>
+    </div>
+    <div class="items">
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=450&fit=crop&q=80" alt="Hamburguesa La Clásica" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">La Clásica</span></div><p class="item__desc">Carne de res, queso cheddar, lechuga, tomate y salsa de la casa.</p></div><span class="item__dots"></span><span class="item__price">$24.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=600&h=450&fit=crop&q=80" alt="Hamburguesa Toscana BBQ" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Toscana BBQ</span><span class="item__tag">Favorita</span></div><p class="item__desc">Doble carne, tocineta, cheddar, cebolla crispy y salsa BBQ ahumada.</p></div><span class="item__dots"></span><span class="item__price">$32.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&h=450&fit=crop&q=80" alt="Hamburguesa Picante" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Picante</span><span class="item__tag item__tag--pic">Picante</span></div><p class="item__desc">Carne, jalapeños, queso pepper jack y salsa chipotle.</p></div><span class="item__dots"></span><span class="item__price">$28.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1520072959219-c595dc870360?w=600&h=450&fit=crop&q=80" alt="Hamburguesa Veggie" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Veggie</span><span class="item__tag item__tag--veg">Veggie</span></div><p class="item__desc">Hamburguesa de garbanzo y quinua, aguacate, rúcula y mayo de hierbas.</p></div><span class="item__dots"></span><span class="item__price">$26.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600&h=450&fit=crop&q=80" alt="Hamburguesa Pollo Crispy" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Pollo Crispy</span></div><p class="item__desc">Pechuga apanada, queso, lechuga, tomate y salsa ranch.</p></div><span class="item__dots"></span><span class="item__price">$27.900</span></div>
+    </div>
+  </section>
+
+  <!-- ===== PERROS CALIENTES ===== -->
+  <section class="cat" id="perros">
+    <div class="cat__head" data-reveal>
+      <h2 class="cat__title">Perros calientes</h2>
+      <p class="cat__note">Salchicha premium<br>Pan recién horneado</p>
+    </div>
+    <div class="items">
+      <div class="item"><img class="item__img" src="https://static.vecteezy.com/system/resources/previews/039/845/551/large_2x/filipino-style-hotdog-free-photo.jpg" alt="Perro Sencillo" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Perro Sencillo</span></div><p class="item__desc">Salchicha, salsas a elección y papas trituradas.</p></div><span class="item__dots"></span><span class="item__price">$14.900</span></div>
+      <div class="item"><img class="item__img" src="https://i.pinimg.com/originals/a0/72/6b/a0726b28b7fb26d512ff049754067331.jpg" alt="Perro Especial" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Perro Especial</span><span class="item__tag">Favorito</span></div><p class="item__desc">Salchicha, tocineta, queso fundido, piña, papas, huevo codorniz y salsas.</p></div><span class="item__dots"></span><span class="item__price">$19.900</span></div>
+      <div class="item"><img class="item__img" src="https://polloseldorado.co/wp-content/uploads/2023/07/Imagenes-2-1024x536.jpg" alt="Perro Mexicano" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Perro Mexicano</span><span class="item__tag item__tag--pic">Picante</span></div><p class="item__desc">Salchicha, guacamole, jalapeños, pico de gallo y queso.</p></div><span class="item__dots"></span><span class="item__price">$21.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1612392061787-2d078b3e573c?w=600&h=450&fit=crop&q=80" alt="Perro Suizo" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Perro Suizo</span></div><p class="item__desc">Salchicha, doble queso suizo fundido y cebolla caramelizada.</p></div><span class="item__dots"></span><span class="item__price">$18.900</span></div>
+    </div>
+  </section>
+
+  <!-- ===== ENTRADAS ===== -->
+  <section class="cat" id="entradas">
+    <div class="cat__head" data-reveal>
+      <h2 class="cat__title">Entradas</h2>
+      <p class="cat__note">Para empezar<br>o compartir</p>
+    </div>
+    <div class="items">
+      <div class="item"><img class="item__img" src="https://ombligoparao.cl/wp-content/uploads/2023/12/Receta-de-Palitos-de-Ajo.jpg" alt="Palitos de ajo" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Palitos de ajo</span></div><p class="item__desc">Masa al horno con mantequilla de ajo y parmesano. Con salsa marinara.</p></div><span class="item__dots"></span><span class="item__price">$12.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=600&h=450&fit=crop&q=80" alt="Alitas BBQ" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Alitas BBQ</span></div><p class="item__desc">Seis alitas glaseadas en BBQ ahumada o búfalo picante.</p></div><span class="item__dots"></span><span class="item__price">$18.900</span></div>
+      <div class="item"><img class="item__img" src="https://tse4.mm.bing.net/th/id/OIP.UFZ9gZIODF1T484zQvjgCAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Papas a la francesa" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Papas a la francesa</span></div><p class="item__desc">Crocantes por fuera, suaves por dentro. Con salsas de la casa.</p></div><span class="item__dots"></span><span class="item__price">$9.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=600&h=450&fit=crop&q=80" alt="Bruschetta" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Bruschetta</span><span class="item__tag item__tag--veg">Veggie</span></div><p class="item__desc">Pan tostado con tomate, albahaca, ajo y aceite de oliva.</p></div><span class="item__dots"></span><span class="item__price">$13.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1531749668029-2db88e4276c7?w=600&h=450&fit=crop&q=80" alt="Dedos de mozzarella" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Dedos de mozzarella</span></div><p class="item__desc">Bastones de queso apanados con salsa marinara.</p></div><span class="item__dots"></span><span class="item__price">$15.900</span></div>
+    </div>
+  </section>
+
+  <!-- ===== POSTRES ===== -->
+  <section class="cat" id="postres">
+    <div class="cat__head" data-reveal>
+      <h2 class="cat__title">Postres</h2>
+      <p class="cat__note">El final feliz</p>
+    </div>
+    <div class="items">
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&h=450&fit=crop&q=80" alt="Tiramisú" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Tiramisú</span><span class="item__tag">Clásico italiano</span></div><p class="item__desc">Bizcocho al café, mascarpone y cacao. Receta tradicional.</p></div><span class="item__dots"></span><span class="item__price">$13.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1593504049359-74330189a345?w=600&h=450&fit=crop&q=80" alt="Pizza de Nutella" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Pizza de Nutella</span></div><p class="item__desc">Masa dulce con Nutella, fresas y azúcar glas. Para compartir.</p></div><span class="item__dots"></span><span class="item__price">$16.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&h=450&fit=crop&q=80" alt="Brownie con helado" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Brownie con helado</span></div><p class="item__desc">Brownie tibio de chocolate con bola de helado de vainilla.</p></div><span class="item__dots"></span><span class="item__price">$12.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&h=450&fit=crop&q=80" alt="Panna cotta" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Panna cotta</span></div><p class="item__desc">Crema suave de vainilla con coulis de frutos rojos.</p></div><span class="item__dots"></span><span class="item__price">$11.900</span></div>
+    </div>
+  </section>
+
+  <!-- ===== BEBIDAS ===== -->
+  <section class="cat" id="bebidas">
+    <div class="cat__head" data-reveal>
+      <h2 class="cat__title">Bebidas</h2>
+      <p class="cat__note">Para acompañar</p>
+    </div>
+    <div class="items">
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=600&h=450&fit=crop&q=80" alt="Gaseosa" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Gaseosa</span></div><p class="item__desc">Línea Coca-Cola. Botella personal 400 ml.</p></div><span class="item__dots"></span><span class="item__price">$4.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=600&h=450&fit=crop&q=80" alt="Limonada natural" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Limonada natural</span></div><p class="item__desc">Limón exprimido al momento. Natural o de coco.</p></div><span class="item__dots"></span><span class="item__price">$7.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&h=450&fit=crop&q=80" alt="Jugo natural" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Jugo natural</span></div><p class="item__desc">En agua o leche. Mora, mango, maracuyá o fresa.</p></div><span class="item__dots"></span><span class="item__price">$6.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1535958636474-b021ee887b13?w=600&h=450&fit=crop&q=80" alt="Cerveza artesanal" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Cerveza artesanal</span></div><p class="item__desc">Selección rotativa de cervezas locales. Pregunta por la del día.</p></div><span class="item__dots"></span><span class="item__price">$11.900</span></div>
+      <div class="item"><img class="item__img" src="img/agua.png" alt="Agua" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Agua</span></div><p class="item__desc">Con o sin gas. Botella 500 ml.</p></div><span class="item__dots"></span><span class="item__price">$3.900</span></div>
+      <div class="item"><img class="item__img" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=450&fit=crop&q=80" alt="Café" loading="lazy"><div class="item__body"><div class="item__top"><span class="item__name">Café</span></div><p class="item__desc">Espresso, americano o capuchino. Origen colombiano.</p></div><span class="item__dots"></span><span class="item__price">$5.900</span></div>
+    </div>
+  </section>
+
+  <div class="menu__more">
+    <a href="https://wa.me/573138999034?text=Hola%20La%20Toscana,%20quiero%20pedir%20un%20domicilio" class="btn btn--whatsapp" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.14c-.25.7-1.44 1.33-1.98 1.41-.53.08-1.18.11-1.9-.12-.44-.14-1-.33-1.72-.64-3.03-1.31-5-4.35-5.16-4.56-.15-.2-1.23-1.63-1.23-3.11s.78-2.21 1.06-2.51c.27-.3.6-.38.8-.38.2 0 .4.002.57.01.18.008.43-.07.67.51.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.5-.15.18-.31.39-.44.53-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.47.13.64-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></svg>
+      Pedir por WhatsApp
+    </a>
+  </div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <span class="footer__brand">LA TOSCANA</span>
+  <p>Auténtica pizza al horno de leña. Bogotá, Colombia.</p>
+  <p class="footer__small">© <span id="year"></span> Pizzería La Toscana. Hecha con masa madre y paciencia.</p>
+</footer>
+
+<script src="shared.js"></script>
+</body>
+</html>
