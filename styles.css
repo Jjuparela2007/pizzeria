@@ -570,3 +570,14 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--brasa);outline-offs
   padding:.85rem 1.6rem;border-radius:100px}
 .btn--google:hover{background:var(--ink);color:#fff}
 .btn--google:hover svg path{fill:#fff}
+
+/* ===== Footer: redes sociales ===== */
+.footer__social{display:flex;justify-content:center;gap:.9rem;margin:1.2rem 0}
+.footer__social-btn{
+  display:grid;place-items:center;
+  width:46px;height:46px;border-radius:50%;
+  border:2px solid currentColor;color:inherit;
+  transition:transform .15s ease,background .2s ease,color .2s ease;
+}
+.footer__social-btn:hover{transform:translateY(-3px);background:var(--brasa);
+  border-color:var(--brasa);color:#fff}
